@@ -14,10 +14,15 @@ class Config: NSObject {
 	var configs: NSDictionary!
 	
 	override init() {
-		let currentConfiguration = Bundle.main.object(forInfoDictionaryKey: "Config")!
+        let currentConfiguration:String = Bundle.main.object(forInfoDictionaryKey: "Config")! as! String
 		print(currentConfiguration)
+        
+        // Get environment
+        let fullNameArr = currentConfiguration.characters.split{$0 == "_"}.map(String.init)
+        let strEnvironment:String = fullNameArr[0] // Get environment
+        
 		let path = Bundle.main.path(forResource: "Config", ofType: "plist")!
-		configs = NSDictionary(contentsOfFile: path)!.object(forKey: currentConfiguration) as! NSDictionary
+		configs = NSDictionary(contentsOfFile: path)!.object(forKey: strEnvironment) as! NSDictionary
         print(configs)
 	}
 }
