@@ -13,8 +13,19 @@ class ViewController: UIViewController {
 	override func viewDidLoad() {
 		super.viewDidLoad()
 		// Do any additional setup after loading the view, typically from a nib.
-		
+        
 		print(Config.sharedInstance.apiEndpoint())
+        
+        #if DEV
+            print("DEBUG ENVIRONMENT")
+        #elseif STA
+            print("STAGE ENVIRONMENT")
+        #elseif PROD
+            print("PRODUCTION ENVIRONMENT")
+        #else
+            print("ENVIRONMENT NOT DEFINED")
+        #endif
+        
 	}
 
 	override func didReceiveMemoryWarning() {
