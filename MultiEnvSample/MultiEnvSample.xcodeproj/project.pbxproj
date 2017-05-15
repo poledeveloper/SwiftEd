@@ -373,7 +373,7 @@
 				INFOPLIST_FILE = MultiEnvSample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = io.limlab.MultiEnvSample;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "D_$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Development_RELEASE;
@@ -449,7 +449,7 @@
 				INFOPLIST_FILE = MultiEnvSample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = io.limlab.MultiEnvSample;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "S_$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Staging_RELEASE;
@@ -525,7 +525,7 @@
 				INFOPLIST_FILE = MultiEnvSample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = io.limlab.MultiEnvSample;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "P_$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Production_RELEASE;
@@ -608,7 +608,7 @@
 				INFOPLIST_FILE = MultiEnvSample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = io.limlab.MultiEnvSample;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "P_$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Production_DEBUG;
@@ -850,7 +850,7 @@
 				INFOPLIST_FILE = MultiEnvSample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = io.limlab.MultiEnvSample;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "D_$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Development_DEBUG;
@@ -933,7 +933,7 @@
 				INFOPLIST_FILE = MultiEnvSample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = io.limlab.MultiEnvSample;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "S_$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Staging_DEBUG;
