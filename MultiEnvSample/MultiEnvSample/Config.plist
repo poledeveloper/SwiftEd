@@ -4,23 +4,23 @@
 <dict>
 	<key>Development</key>
 	<dict>
-		<key>APIEndpointURL</key>
+		<key>api_endpoint_url</key>
 		<string>dev.example.com</string>
-		<key>loggingLevel</key>
+		<key>logging_level</key>
 		<string>Dev</string>
 	</dict>
 	<key>Staging</key>
 	<dict>
-		<key>APIEndpointURL</key>
+		<key>api_endpoint_url</key>
 		<string>sta.example.com</string>
-		<key>loggingLevel</key>
+		<key>logging_level</key>
 		<string>Sta</string>
 	</dict>
 	<key>Production</key>
 	<dict>
-		<key>APIEndpointURL</key>
+		<key>api_endpoint_url</key>
 		<string>example.com</string>
-		<key>loggingLevel</key>
+		<key>logging_level</key>
 		<string>Prod</string>
 	</dict>
 </dict>

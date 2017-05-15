@@ -29,10 +29,10 @@ class Config: NSObject {
 
 extension Config {
 	func apiEndpoint() -> String {
-		return configs.object(forKey: "APIEndpointURL") as! String
+		return configs.object(forKey: "api_endpoint_url") as! String
 	}
 	
 	func loggingLevel() -> String {
-		return configs.object(forKey: "loggingLevel") as! String
+		return configs.object(forKey: "logging_level") as! String
 	}
 }
