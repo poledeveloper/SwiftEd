@@ -5,23 +5,23 @@
 	<key>Development</key>
 	<dict>
 		<key>APIEndpointURL</key>
-		<string>Development API Enpoint</string>
+		<string>dev.example.com</string>
 		<key>loggingLevel</key>
-		<string>Log level Dev</string>
+		<string>Dev</string>
 	</dict>
 	<key>Staging</key>
 	<dict>
 		<key>APIEndpointURL</key>
-		<string>Staging API Enpoint</string>
+		<string>sta.example.com</string>
 		<key>loggingLevel</key>
-		<string>Log level Stg</string>
+		<string>Sta</string>
 	</dict>
 	<key>Production</key>
 	<dict>
 		<key>APIEndpointURL</key>
-		<string>Production API Enpoint</string>
+		<string>example.com</string>
 		<key>loggingLevel</key>
-		<string>Log level Prod</string>
+		<string>Prod</string>
 	</dict>
 </dict>
 </plist>
