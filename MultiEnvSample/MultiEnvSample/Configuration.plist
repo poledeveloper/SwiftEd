@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ApiUrls</key>
+	<dict>
+		<key>UsersEntryPoint</key>
+		<string>/users</string>
+		<key>AuthEntryPoint</key>
+		<string>/auth</string>
+	</dict>
+	<key>Environments</key>
+	<dict>
+		<key>Development</key>
+		<dict>
+			<key>api_endpoint_url</key>
+			<string>dev.example.com</string>
+			<key>logging_level</key>
+			<string>dev</string>
+		</dict>
+		<key>Staging</key>
+		<dict>
+			<key>api_endpoint_url</key>
+			<string>sta.example.com</string>
+			<key>logging_level</key>
+			<string>sta</string>
+		</dict>
+		<key>Production</key>
+		<dict>
+			<key>api_endpoint_url</key>
+			<string>example.com</string>
+			<key>logging_level</key>
+			<string>prod</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

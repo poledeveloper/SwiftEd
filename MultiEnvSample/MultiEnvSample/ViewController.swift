@@ -14,7 +14,7 @@ class ViewController: UIViewController {
 		super.viewDidLoad()
 		// Do any additional setup after loading the view, typically from a nib.
         
-		print(Config.sharedInstance.apiEndpoint())
+		print(Configuration.sharedInstance.apiEndpoint())
         
         #if DEV
             print("DEBUG ENVIRONMENT")
